@@ -1,3 +1,5 @@
+@import url('base.css');
+
 body,
 html {
     margin: 0;
@@ -53,4 +55,86 @@ html {
     100% {
         transform: translateX(0);
     }
+}
+
+/* conteudo da pagina */
+
+.welcome-container {
+    position: absolute;
+    height: 100vh;
+    width: 40%;
+    background: rgb(40, 40, 50);
+    background: linear-gradient(0deg, rgba(40, 40, 50, 1) 0%, rgba(70, 70, 86, 1) 100%);
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    transform: translateX(-50%, -50%);
+    transform: translateY(100%);
+    color: var(--branco-secundario);
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+span{
+    color: var(--branco-primario);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img-logo-type{
+    width: 250px;
+}
+
+.circle-container {
+    position: fixed;
+    display: flex;
+    align-content: baseline;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color:var(--vermelho-claro); 
+}
+
+.small {
+    width: 43px;
+    height: 43px;
+    bottom: 15%;
+    left: 20%;
+}
+
+.medium {
+    width: 47px;
+    height: 47px;
+    bottom: 30%;
+    left: 30%;
+    background-color: var(--vermelho-escuro);
+}
+
+.large {
+    width: 52px;
+    height: 52px;
+    bottom: 100%;
+    left: 100%;
+}
+
+.larger {
+    width: 62px;
+    height: 62px;
+    bottom: 200%;
+    left: 200%;
+    background-color: var(--vermelho-escuro);
 }

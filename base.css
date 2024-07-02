@@ -1,0 +1,20 @@
+:root {
+    --vermelho-escuro: #77181E;
+    --vermelho-claro: #A92727;
+    --cinza-escuro: #282832;
+    --branco-primario: #C6D6D6;
+    --branco-secundario: #DEE7E7;
+}
+
+body {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: "Inria Sans", sans-serif;
+}
+
+p {
+    font-family: "Inria Sans", sans-serif;
+}
