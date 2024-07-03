@@ -59,6 +59,13 @@ html {
 
 /* conteudo da pagina */
 
+main{
+    display: flex;
+    flex-direction: row !important;
+    background-color: aqua;
+
+}
+
 .welcome-container {
     position: absolute;
     height: 100vh;
@@ -262,4 +269,10 @@ input:focus, input:hover {
     justify-content: center;
     align-items: center;
     background-color: #ae1d1d;
+}
+
+@media screen and (max-width: 800px) {
+    main{
+        flex-direction: column !important;
+    }
 }
