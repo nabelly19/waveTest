@@ -1,4 +1,4 @@
-@import url('base.css');
+@import url('../css/base.css');
 
 body,
 html {
@@ -83,15 +83,21 @@ span{
 }
 
 .content {
+    width: 65%;
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
+.subtitle{
+    color: var(--branco-primario);
+    font-size: 20px;
+}
+
 .img-logo-type{
-    width: 250px;
+    width: 220px;
 }
 
 .circle-container {
@@ -134,7 +140,126 @@ span{
 .larger {
     width: 62px;
     height: 62px;
-    bottom: 14rem;
-    left: 20rem;
+    bottom: 12rem;
+    left: 19rem;
     background-color: var(--vermelho-escuro);
+}
+
+.content_form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(45%);
+    top: 0;
+    right: 0;
+    width: 60%;
+}
+
+.title-login {
+    width: 100%;
+    color: var(--branco-secundario);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-login {
+    margin-right: 80%;
+    margin-top: 10%;
+}
+
+input::placeholder {
+    color: #313131;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+input:focus, input:hover {
+    outline: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+
+.login {
+    background-color: rgba(222,	231,	231, 0.70);
+    border-style: none;
+    border-radius: 30px;
+    padding: 0px 20px;
+    width: 500px;
+    height: 55px;
+    color: #111111;
+    font-size: 1rem;
+}
+
+.esquecer_senha{
+    display: flex;
+    margin-left: 30%;
+    color: aliceblue;
+}
+
+.bi-eye {
+    color: #111111;
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+    right: 10px; /* Ajuste a posição conforme necessário */
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+.bi-eye-slash {
+    color: #111111;
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+    right: 10px; /* Ajuste a posição conforme necessário */
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+.password_position {
+    position: relative;
+}
+
+.login {
+    padding-right: 25px; /* Para deixar espaço para o ícone dentro do campo */
+}
+
+.btn-area{
+    width: 45%;
+}
+
+.btn-login{
+    margin-top: 60px;
+    height: 55px;
+}
+
+.checkbox{
+    border-radius: 50%;
+}
+
+.notification {
+    color: #F5F5F5;
+    padding-top: 15px;
+}
+
+.notification p {
+    font-size: 1.2rem;
+}
+
+.content-notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ae1d1d;
 }
