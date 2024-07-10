@@ -1,0 +1,29 @@
+@import url('../css/base.css');
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+}
+
+.section1 {
+    width: 30%;
+    background-color: var(--cinza-escuro);
+    color: aliceblue;
+
+}
+
+.section2 {
+    width: 70%;
+    background-color: bisque;
+    color: aliceblue;
+    
+}
+
+@media  (width > 1024px) {
+    main{
+        flex-direction: row;
+    }
+}
