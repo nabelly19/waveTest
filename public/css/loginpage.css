@@ -8,22 +8,41 @@ main{
     min-height: 100vh;
 }
 
-.section1 {
-    width: 30%;
-    background-color: var(--cinza-escuro);
-    color: aliceblue;
 
+.section1{
+    width: 100%;
+    min-height: 70vh;
+    height: auto;
+    background-color: var(--cinza-escuro);
+    color: aliceblue;   
 }
 
-.section2 {
-    width: 70%;
-    background-color: bisque;
-    color: aliceblue;
-    
+.section2{
+    width: 100%; 
+    min-height: 70vh;
+    height: auto;
+    background-color: lawngreen;
+    color: aliceblue;   
 }
 
 @media  (width > 1024px) {
     main{
         flex-direction: row;
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
     }
+
+    .section1 {
+        width: 30%;
+    }
+    
+    .section2 {
+        width: 70%;
+    }
+    
+
+
+
 }
+
