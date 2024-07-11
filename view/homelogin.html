@@ -23,6 +23,31 @@
 </head>
 <body>
     <main>
+        <div>
+            <div class="wave top"></div>
+            <div class="wave top"></div>
+            <div class="wave top"></div>
+            <div class="wave top"></div>
+            <div class="wave bottom"></div>
+            <div class="wave bottom"></div>
+            <div class="wave bottom"></div>
+            <div class="wave bottom"></div>
+    
+            <svg width="0" height="0">
+                <defs>
+                    <clipPath id="wavePath" clipPathUnits="objectBoundingBox">
+                        <path d="M 0,2
+                        L 0,0.75
+                        C 0.2,0.65 0.3,0.55 0.4,0.65 
+                        S 0.6,0.95 0.8,0.75 
+                        S 1,0.6 1,0.75 
+                        V 0,1 
+                        Z" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+        
         <section class="section1">
             <div class="title">
                 <p><span>WAR</span> DECISION</p>
@@ -42,7 +67,24 @@
         </section>
 
         <section class="section2">
-            <p>ataatatat</p>
+            <div class="content_form">
+                <div class="title-login">
+                    <p><span>Faça seu</span> Login</p>
+                </div>
+                <form class="form" action="/" method="post">
+                    <label class="label-geral label-login" for="login">LOGIN</label>
+                    <input class="login" placeholder="Insira seu Login" name="login">
+                    
+                    <label class="label-geral label-login" for="password">SENHA</label>
+                    <div class="password_position">
+                        <input type="password" class="login" id="senha" placeholder="Insira sua Senha" name="password">
+                        <i class="bi bi-eye mt-2" id="eye-toggle"></i>
+                    </div>
+                    <div class="btn-area">
+                        <input type="submit" class="btn-login btn-geral" value="ENTRAR"/>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     
