@@ -263,3 +263,15 @@ input:hover {
         height: 55px;
     }
 }
+
+@media (width <= 1300px) {
+    .title {
+        font-size: 3rem;
+        margin-top: 185px;
+    }
+
+    .subtitle {
+        padding: 0 110px 0 110px;
+        font-size: 15px;
+    }
+}
